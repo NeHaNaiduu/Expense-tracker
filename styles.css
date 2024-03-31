@@ -1,0 +1,61 @@
+body{
+    background:white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:600px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    position: relative;
+    background-color: lightgray;
+}
+.trackerForm{
+    display: flex;
+    flex-direction: column;
+}
+.trackerForm label{
+    margin-bottom: 10px;
+}
+.trackerForm input,select{
+    margin-bottom: 20px;
+    padding: 7px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+h3{
+    text-decoration: underline;
+}
+.submit{
+    background-color:rgb(4, 98, 4);
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.print{
+    position:absolute;
+    right: 20px;
+    top: 50px;
+}
+.js-delete{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+.listOf{
+    display: grid;
+    grid-template-columns: 200px 150px 100px 100px;
+    row-gap: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    align-items: center;
+}
